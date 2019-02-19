@@ -1,18 +1,42 @@
+@mixin vertical-align {
+    -webkit-transform: translateY(25%);
+    -ms-transform: translateY(25%);
+    transform: translateY(25%);
+}
 
 :host  {
-    .footer {
-        background-color: #FFD97D;
+    #footer {
+        background-color: #264653;
+
+        /* Keeps footer fixed to bottom of page */
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+
     }
 
     .nav p{
         font-weight: 600;
-        color: #EE6055;
+        color: #2A9D8F;
+    }
+
+    div #copyright {
+      @include vertical-align;
     }
 }
 
-a:link, a:visited, a:hover, a:active { color: #EE6055 ; text-decoration: none }
+a:link, a:visited, a:active { color: #2A9D8F ; text-decoration: none }
 
-.fab { font-size: 2.5em;}
+a:hover {
+  text-decoration: none;
+  color: #77C0B7;
+}
+
+.fab { font-size: 2.5em; }
+
+#copyright { padding-left: 0.5em; }
 
 .nav-item { padding: 0.5em; }
-

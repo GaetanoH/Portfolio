@@ -1,6 +1,31 @@
-h1 {
+.title {
     font-family: 'Felipa', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    color: #EE6055;
-    margin-left: 10px;
+    color: #2A9D8F;
+    font-size: 2.5em;
+    transition: 1s;
+}
+.navbar {
+  background-color: #264653;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a:link, a:visited, a:active { color: #2A9D8F ; text-decoration: none }
+
+a:hover {
+  text-decoration: none;
+  color: #77C0B7;
+}
+
+
+.title a {
+  color: #2A9D8F;
+  text-decoration: none;
+}
+
+.title a:hover {
+  text-decoration: none;
+  color: #77C0B7;
 }
