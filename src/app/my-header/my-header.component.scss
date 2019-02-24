@@ -1,15 +1,27 @@
-.title {
-    font-family: 'Felipa', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bold;
-    color: #2A9D8F;
-    font-size: 2.5em;
-    transition: 1s;
+.header {
+    height: 100vh;
+    width: 100wh;
+    color: #fff;
+    background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
 }
-.navbar {
-  background-color: #264653;
-  position: fixed;
-  top: 0;
+
+.content {
+  text-align: center;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  color: #2A9D8F;
+}
+
+#icon {
+  display: inline-block;
   width: 100%;
+  text-align: center;
 }
 
 a:link, a:visited, a:active { color: #2A9D8F ; text-decoration: none }

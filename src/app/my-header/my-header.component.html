@@ -1,6 +1,24 @@
-<nav class="navbar" (scroll)="scrollHandler($event)">
-  <a class="title" id="title" href="#">Gaetano Herman</a>
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-  </form>
-</nav>
+<section class="header">
+  <nav class="navbar" (scroll)="scrollHandler($event)">
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="content">
+    <h2>Hello, I'm Gaetano Herman.</h2>
+    <p>I'm a full-stack (web) developer comfortable with Node.js, Angular & Java</p>
+    <button>View my work</button>
+  </section>
+  <a href="#portfolio"><i id="icon" class="fas fa-angle-down"></i></a>
+</section>

@@ -9,6 +9,7 @@ export class MyHeaderComponent implements OnInit {
 
   constructor() { }
 
+
   ngOnInit() {
     window.addEventListener('scroll', this.scrollEvent, true);
   }
